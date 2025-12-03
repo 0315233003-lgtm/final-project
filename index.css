@@ -7,15 +7,34 @@
     color: rgb(255, 255, 255);
     text-align: center;
     margin: space-evenly;
-    background-color:black;
+    background-color:rgb(255, 255, 255);
     padding:60px;
+    letter-spacing: 3px;
+    word-spacing: 500px;
 }
 
 .header a {
-    color:white;
+    color:rgb(0, 0, 0);
     text-decoration: none;
+    
 }
 
 .main{
-
+   background-image:url("golden_puppy.jpg") ;
+   background-size: cover;
+   background-position: center;
+   height: 1150px;
+   font-size: 90px;
+   font-style: oblique;
+   
+   
+}
+.box-absolute {
+    position: absolute;
+    top: 500px;
+    right:100px ;
+    background-color: rgb(255, 255, 255);
+    width: 900px;
+    height: 700px;
+    border-radius: 10px;
 }
