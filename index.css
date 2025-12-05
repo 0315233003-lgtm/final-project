@@ -8,7 +8,7 @@
     text-align: center;
     margin: space-evenly;
     background-color:rgb(255, 255, 255);
-    padding:60px;
+    padding:50px;
     letter-spacing: 3px;
     word-spacing: 500px;
 }
@@ -16,7 +16,8 @@
 .header a {
     color:rgb(0, 0, 0);
     text-decoration: none;
-    
+    transition: all 0.5s ease;
+    animation: bounce 1.5;
 }
 
 .main{
@@ -26,7 +27,7 @@
    height: 1150px;
    font-size: 90px;
    font-style: oblique;
-   
+   color: rgb(238, 238, 238);
    
 }
 .box-absolute {
